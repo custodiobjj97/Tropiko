@@ -1,0 +1,18 @@
+.btn{
+    padding: 0.90rem 3rem;
+    background-color: var(--color-primary);
+    margin: 1rem;
+    border-radius: 5px;
+    margin-bottom: var(--mg-bottom);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-border{
+    padding: 0.90rem 3rem;
+    border:2px solid var(--color-primary);
+    background-color: transparent;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}

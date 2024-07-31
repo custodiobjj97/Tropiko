@@ -1,0 +1,28 @@
+.contact{
+    padding: 200px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('../../../public/images/orange-dish.png') no-repeat right;
+}
+
+form{
+    max-width: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+form input,textarea{
+    width: 100%;
+    padding: 0.80rem;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+}
+
+form textarea{
+    
+    height: 150px;
+}

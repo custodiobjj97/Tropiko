@@ -1,0 +1,33 @@
+.home{
+    padding: 220px 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1rem;
+    place-items: center;
+}
+.home-text h1{
+    font-size: 2.66rem;
+    margin-bottom: var(--mg-bottom);
+}
+
+
+.home-text p{
+    font-size: 0.95rem;
+    margin-bottom: var(--mg-bottom);
+}
+
+
+@media (min-width:1042px){
+    .home{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .home-text h1{
+        font-size: 3.66rem;
+    }
+
+    .home-text p{
+        font-size: 1.1rem;
+        margin-bottom: var(--mg-bottom);
+    }
+}

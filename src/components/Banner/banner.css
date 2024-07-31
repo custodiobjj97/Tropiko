@@ -1,0 +1,21 @@
+.banner{
+    padding: 200px 12px;
+    background: url('../../../public/images/tasty-image.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.banner h1{
+    font-size: 3rem;
+}
+
+
+@media (min-width:1042px){
+    .banner h1{
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,42 @@
+.wrapper{
+    padding: 60px 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.slide{
+    display: flex;
+    transition: transform .3s ease;
+}
+
+
+.item{
+    flex-shrink: 0;
+    width: 80%;
+
+    margin: 0 10%;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.item img{
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0 auto;
+    width: 80%;
+}
+
+.nav button{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
