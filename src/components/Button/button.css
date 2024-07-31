@@ -1,5 +1,5 @@
 .btn{
-    padding: 0.90rem 3rem;
+    padding: 0.90rem 2.55rem;
     background-color: var(--color-primary);
     margin: 1rem;
     border-radius: 5px;
@@ -9,7 +9,7 @@
 }
 
 .btn-border{
-    padding: 0.90rem 3rem;
+    padding: 0.90rem 2.55rem;
     border:2px solid var(--color-primary);
     background-color: transparent;
     border-radius: 5px;
